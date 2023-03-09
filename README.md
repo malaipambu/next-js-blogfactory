@@ -13,23 +13,37 @@ The Next.js Blogfactory is a simple blog creation tool built with Next.js which 
 - Get notification when the transcation finishes
 - Runs on multiple chains as per the defined smart contract address.
 
+##### Installation
+To get started with this project, follow these steps:
+
+1. Clone the repository to your local machine
+```
+git clone https://github.com/malaipambu/next-js-blogfactory.git
+next-js-blogfactory
+```
+2. Install the project dependencies by running 
+```
+yarn install
+```
+
 
 ##### Usage
-1. Clone the repository:
-	`git clone https://github.com/malaipambu/next-js-blogfactory.git`
-	` cd  next-js-blogfactory\`
-`
-2. Install dependencies
-`yarn install
-`
+
 (Deploy the contract and update the contract address from contractAddresses.json)
+Edit the constants/contractAddresses.json with your contract address you deloyed witht the corresponding chain ID
+```
+{
+    "5": ["0xa330D54ceE2B3e3EEAf690465e96AeE828483f9a"],
+    "1337": ["0x443fc5b750346e9055862B906b048ACcEf2A5965"]
+}
+```
 
-3. Start a local development server
-`yarn dev
-`
+1. Start a local development server
+```
+yarn dev
+```
 
-
-4. You can access the application on port 3000 of your localhost
+2. You can access the application on port 3000 of your localhost
 `http://localhost:3000`
 
 
