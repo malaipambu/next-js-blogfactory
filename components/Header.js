@@ -12,8 +12,10 @@ export default function Header() {
                     <Link href="/"> Home </Link> | <Link href="/create"> Create Post </Link>
                 </div>
             </div>
-            <div className="ml-auto py-2 px-4">
-                <ConnectButton moralisAuth={false} />
+            <div className="bg-white h-14 rounded-2xl ml-auto">
+                <div className="py-2 px-4">
+                    <ConnectButton moralisAuth={false} />
+                </div>
             </div>
         </nav>
     )
